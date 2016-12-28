@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* ////////////////////////////////////////////////// content ////////////////////////////////////////////////// */
+#sub_member { 
+margin:0 auto; 
+width:1100px;  
+padding-top:46px;
+padding-bottom:100px;
+text-align: center;
+overflow: hidden;
+}
+
+#sub_member h2 {
+padding-bottom:22px;
+}
+#sub_member p {
+font-size:15px;
+font-weight:normal;
+color:#65676a;
+}
+#sub_member p span {
+color:#c4269d;
+}
+
+.form_container {
+padding:0 402px;
+padding-top:29px;
+}
+.form_container .form-control {
+margin:0 auto;
+width:307px;
+height:46px;
+border-radius:30px;
+background:#efeff0;
+border:1px solid #b0aacf;
+padding-left:30px;
+}
+
+
+.form-group.form_btn {
+margin:0 auto;
+width:307px;
+height:46px;
+border-radius:30px;
+background:url(../images/btn_bluegreen.gif) no-repeat;
+}
+
+#sub_member .btn_login {
+padding:8px 0 16px 0;
+}
+
+
+.join_social {
+padding-top:13px;
+}
+.join_social a {
+display: inline-block;
+padding:0 3.5px;
+}
+
+
+.btn.btn-default {
+width:307px;
+height:46px;
+border:none;
+background:none;
+color:#fff;
+}
+.term_list {
+ text-align:left;
+ padding-left:40px;
+
+
+}
+.term_list span {
+ font-size:14px;
+ color:#65676a;
+ font-weight:500;
+}
+.term_list span > span {
+color:#c4269d;
+}
+
+.term_list .term_open button > span {
+display: inline-block;
+/*padding-left:45px;*/
+margin-left:25px;
+font-weight:600;
+color:#479dac;
+}
+
+.term_list input[type='checkbox'] {
+width:16px;
+height:16px;
+}
+
+#sub_member .join_ad {
+padding:24px 0 16px 0;
+font-size:14px;
+}
+#sub_member .join_ad.login_ad {
+padding-top:6px;
+}
+
+
+
+/*
+* member service - password
+*/
+
+#sub_member .member_serve {
+float:left;
+margin-left:20%;
+padding:160px 0 350px 0;
+}
+#sub_member .h2_memberServe {
+text-align: left;
+padding-bottom:3px;
+
+}
+#sub_member .member_title {
+text-align: left;
+font-size:14px;
+font-weight:normal;
+color:#65676a;
+}
+#sub_member .member_title > span {
+color:#c4269d;
+
+}
+
+
+.form_memberServe {
+float: left;
+/*padding:0 402px;
+padding-top:29px;*/
+width:400px;
+padding:0;
+padding-left:40px;
+margin-top:156px;
+}
+.form_memberServe form {
+overflow: hidden;
+}
+.form_memberServe .form-control {
+margin:0;
+/*width:307px;*/
+width:150px;
+border-radius:0px;
+border-top-left-radius:30px;
+border-bottom-left-radius:30px;
+background:#efeff0;
+border:1px solid #b0aacf;
+padding-left:30px;
+float: left;
+}
+.form_memberServe .form-group.form_pwGroup .form-control {
+border-radius:0px;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+margin-top:-15px;
+margin-left:1px;
+}
+
+.form_memberServe .btn_login .form-group.form_btn {
+width:150px;
+border-radius:0px;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+background-position:right center;
+float:left;
+margin-top:-23px;
+margin-left:1px;
+}
+.form_memberServe .btn_login .btn.btn-default {
+width:150px;
+border:none;
+background:none;
+color:#fff;
+}
+
+.form_memberServe .btn_login.form_btnGroup .form-group.form_btn {
+width:307px;
+border-radius:0px;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+background-position:center;
+float:left;
+margin-top:8px;
+margin-left:0;
+}
+
+.form_memberServe .join_social {
+width:307px;
+overflow: hidden;
+}
+
+.form_memberServe .join_ad.login_ad.member_ad {
+margin: 0;
+padding:0;
+margin-top:10px;
+width:307px;
+}
+.form_memberServe .form-group.form_btn.form_join {
+margin:0;
+color:#ccc;
+background:none;
+border:none;
+margin-top:-20px;
+}
+.form_memberServe .form-group.form_btn.form_join .form_btn {
+background:none;
+border:none;
+}
+.form_memberServe .form-group.form_btn.form_join .form_btn button {
+color:#65676a;
+}
+
+
+

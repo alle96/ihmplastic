@@ -1,0 +1,181 @@
+<!-- ////////////////////////////////// sub contents reservation  ////////////////////////////////// -->
+
+
+<div id="sub_comni">
+    <div class="sub_header">
+        <h2>진료예약</h2>
+    </div>
+
+    <div class="comni_container">
+       <div class="counsel_write reservation">
+         <form>
+            <fieldset>
+              <ul>
+                  <li>
+                      <div class="reserve_step step1">
+                          <ul>
+                              <li>
+                                  <p class="step_title">
+                                      <span>STEP 1</span><span class="step">예약자 정보</span>
+                                  </p>
+                              </li>
+                              <li>
+                                <div class="form-group">
+                                    <label for="userName" class="col-lg-2 control-label"><span class="redDot">*</span>예약자</label>
+                                    <div class="col-lg-5 reserve_name">
+                                        <input type="text" class="form-control" id="userName" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group form_mobile">
+                                    <label for="mobile1" class="col-lg-2 control-label"><span class="redDot">*</span>휴대전화번호</label>
+                                    <div class="col-lg-8 form_mobileInner">
+                                         <div class="input_mobile">
+                                             <select  class="form-control" name="mobile1" id="mobile1">
+                                                 <option value="010">010</option>
+                                                 <option value="011">011</option>
+                                                 <option value="016">016</option>
+                                                 <option value="017">017</option>
+                                                 <option value="018">018</option>
+                                                 <option value="019">019</option>
+                                             </select>
+                                        </div>
+                                        <div class="col-lg-1"><span> - </span>  </div>    
+                                      <label for="mobile2" class="blind">휴대전화번호 중간 4자리 또는 3자리</label>
+                                      <div class="input_mobile">
+                                          <input type="text"  class="form-control" id="mobile2" name="speed_mobile2" maxlength="4" required="">
+                                      </div>
+                                      <div class="col-lg-1">
+                                          <span> - </span>
+                                      </div>
+                                      <label for="mobile3" class="blind">휴대전화번호 끝 4자리</label>
+                                      <div class="input_mobile">
+                                          <input type="text"  class="form-control" id="mobile3" name="speed_mobile3" maxlength="4" required="">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                <label for="category_opt" class="col-lg-2 control-label"><span class="redDot">*</span>관심 부위</label>
+                                <div class="col-lg-5">
+                                    <select class="form-control" id="category_opt">
+                                      <option value="">눈성형</option>
+                                      <option value="">코성형</option>
+                                      <option value="">안티에이징</option>
+                                      <option value="">바디성형</option>
+                                      <option value="">모발이식</option>
+                                      <option value="">레이저클리닉</option>
+                                    </select>
+                                </div>
+                              </div>  
+                              <div class="form-group">
+                                    <label for="sex" class="col-lg-2 control-label"><span class="redDot">*</span>성별</label>
+                                    <div class="col-lg-5">
+                                        <select class="form-control" id="sex">
+                                          <option>성별을 선택하세요</option>
+                                          <option value="male">남성</option>
+                                          <option value="female">여성</option>
+                                        </select>
+                                    </div>
+                                </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </li>
+
+
+                  <li class="list_step2">
+                      <div class="reserve_step step2">
+                          <ul>
+                              <li>
+                                  <p class="step_title">
+                                      <span>STEP 2</span><span class="step">원하는 날짜<br>&amp;<br>시간 선택</span>
+                                  </p>
+                              </li>
+                              <li class="step2_wrap">
+                                <div class="container">
+                                    <div class="date_pick">
+                                    <!-- reservation system START -->
+                                     <script src="./js/lang/kr.js"></script>
+                                    <script src="./js/datepicker.js">
+                                    {"describedby":"fd-dp-aria-describedby"}
+                                    </script>
+                                      <label for="reserVe"><span class="redDot">*</span>날짜 선택</label> <input type="text" id="reserVe" name="reserVe" value="" />
+                                        <script>
+                                            datePickerController.createDatePicker({
+
+                                            formElements:{"reserVe":"%Y/%m/%d"},
+                                            statusFormat:"%l, %Y %F %d%S",
+                                            staticPos:true,
+                                            fillGrid:true,
+                                            constrainSelection:false,
+                                            disabledDays:[0,0,0,0,0,0,1]
+                                            });
+                                        </script>
+                                    </div> 
+                                    <div class="form-group form_last">
+                                        <label for="time_opt" class="col-lg-3 control-label time_label"><span class="redDot">*</span>예약 시간</label>
+                                        <div class="col-lg-9 time_select">
+                                            <select class="form-control" id="time_opt">
+                                              <option>예약시간을 선택하세요.</option>
+                                              <option value="">09:30</option>
+                                              <option value="">10:00</option>
+                                              <option value="">10:30</option>
+                                              <option value="">11:00</option>
+                                              <option value="">11:30</option>
+                                              <option value="">12:00</option>
+                                              <option value="">12:30</option>
+                                              <option value="">13:00</option>
+                                              <option value="">13:30</option>
+                                              <option value="">14:00</option>
+                                              <option value="">14:30</option>
+                                              <option value="">15:00</option>
+                                              <option value="">15:30</option>
+                                              <option value="">16:00</option>
+                                              <option value="">16:30</option>
+                                              <option value="">17:00</option>
+                                              <option value="">17:30</option>
+                                              <option value="">18:00</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="reserve_step step3">
+                          <ul>
+                              <li>
+                                  <p class="step_title">
+                                      <span>STEP 3</span><span class="step">내용 입력</span>
+                                  </p>
+                              </li>
+                              <li class="step3_wrap">
+                                <div class="form-group">
+                                    <label for="userSubs" class="col-lg-12 control-label">예약 내용</label>
+                                    <div class="col-lg-12 reserve_subs">
+                                        <textarea name="userSubs" id="userSubs" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+            </fieldset>
+ 
+                <div class="btn_fam">
+                    <div class="btn_cancel">
+                       <button type="button" class="btn btn-default">취소하기</button>
+                    </div>
+                   <div class="btn_write">
+                       <button type="submit" class="btn btn-default">예약하기</button>
+                  </div>
+                </div>
+            </form>
+        </div>
+           
+    </div>
+
+    
+
+        
+</div>

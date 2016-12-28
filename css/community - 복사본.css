@@ -1,0 +1,84 @@
+/*
+* sub - review
+*/
+/*
+.comni_container .table_reviewVw tbody {
+border-top:3px solid #626569;
+}
+
+*/
+
+
+.comni_container .table_reviewVw {
+border-top:3px solid #626569;
+border-bottom:1px solid #bec2c7;
+margin-bottom:20px;
+}
+
+.comni_container .table_reviewVw ul li {
+padding:14px 0;
+border-bottom:1px solid #bec2c7;
+overflow: hidden;
+cursor:pointer;
+}
+
+.comni_container .table_reviewVw ul li .review_thumb {
+float: left;
+width:333px;
+height:223px;
+}
+.comni_container .table_reviewVw ul li .review_thumb img {
+
+}
+.comni_container .table_reviewVw ul li .review_inner {
+float: left;
+width:730px;
+padding-left:37px;
+text-align: left;
+}
+.review_inner .review_title {
+/*float: left;*/
+font-size:16px;
+}
+.review_inner .review_title .writer {
+display:block;
+text-align: right;
+}
+.review_inner .review_title .writer > strong {
+font-size:15px;
+}
+.review_inner .review_sum {
+padding-top:20px;
+margin-bottom:35px;
+font-size:14px;
+word-wrap: break-word;
+word-break: break-all;
+/*display: inline-block;*/
+}
+.review_inner .review_data {
+/*border:1px solid #d4d4d4;*/
+}
+
+.review_inner .review_data thead {
+border-top:none;
+}
+.review_inner .review_data thead tr th {
+border-bottom:none;
+background:#e7e9eb;
+line-height:40px;
+}
+.review_inner .review_data tbody {
+border-top:none;
+}
+.review_inner .review_data tbody tr {
+cursor:auto;
+}
+.review_inner .review_data thead tr, 
+.review_inner .review_data tbody tr {
+height:40px;
+}
+.review_inner .review_data tbody tr td {
+text-align:center;
+padding:0;
+line-height:40px;
+}

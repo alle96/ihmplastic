@@ -1,0 +1,25 @@
+/* ////////////////////////////////////////////////// ie ////////////////////////////////////////////////// */
+
+.carousel-control.left.left_ie {
+background-position-y:-150px;
+height:300px;
+/*background-image:none;*/
+}
+#visual .carousel-control.left,
+#visual .carousel-control.right {
+background-image:none;
+/*background-size: 100%;*/
+/
+}
+
+
+/*
+* media query START
+*/
+@media all and (min-width:1024px) and (max-width:1600px){
+
+
+
+
+
+}
